@@ -857,7 +857,7 @@
                 const gameStatus = card.querySelector('.game-status').textContent;
                 
                 // Only navigate to live and beta games
-                if (gameStatus === 'LIVE NOW' || gameStatus === 'BETA'|| gameStatus === 'NEW'|| gameStatus === 'OPEN'|| gameStatus === 'UPDATED') {
+                if (gameStatus === 'LIVE NOW' || gameStatus === 'BETA'|| gameStatus === 'NEW'|| gameStatus === 'OPEN'|| gameStatus === 'UPDATED'|| gameStatus === 'OUT') {
                     card.style.transform = 'scale(0.95)';
                     setTimeout(() => {
                         // Convert game title to filename
